@@ -1,0 +1,30 @@
+.about {
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    margin-top: 1em;
+    padding: 0.1em 10rem 2rem;
+    border-radius: 10px;
+    text-wrap: pretty;
+    border-bottom: 1px solid gray;
+}
+
+.about-content {
+    text-wrap: pretty;
+}
+
+.about > p {
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    padding-block-start: 2rem;
+    text-shadow: 1px 1px 10px #fff;
+    color: #fff;
+    filter: opacity(.8);
+}
+
+@media (width >= 280px) and (width <= 932px) {
+    .about {
+        padding: 1rem 0;
+    }
+}

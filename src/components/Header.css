@@ -1,0 +1,159 @@
+.bg-header {
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem;
+    position: sticky;
+    margin-bottom: 1rem;
+    top: 0px;
+    z-index: 10;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 1px solid gray;
+    max-width: 1500px;
+    margin: 0 auto 1rem;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    all: unset;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+}
+
+ul {
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    font-size: 1em;
+    text-shadow: 1px 1px 10px;
+    transition: 0.5s ease;
+}
+
+.menu-icon {
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+/* Link and Logo Hover Effects */
+.link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+}
+
+.link::before {
+    bottom: 0;
+    left: 0;
+}
+
+.link:hover::before {
+    transform: scaleX(1);
+}
+
+.link:hover {
+    text-shadow: 1px 1px 10px;
+}
+
+.logo:hover {
+    text-shadow: 0px 0px 0px;
+    filter: opacity(.6);
+}
+
+.menu-list {
+    display: none;
+}
+
+/* Media Query for Responsive behavior of the Navbar */
+@media (width >=280px) and (width <=1023px) {
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        padding: 24px 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .bg-header {
+        position: relative;
+    }
+
+    .logo {
+        font-size: 1.3em;
+    }
+
+    .menu-icon {
+        display: flex;
+        position: relative;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 1rem auto;
+    }
+
+    .menu-icon:active {
+        background: gray;
+    }
+
+    /* Estilos para el contenedor del menú */
+    .menu-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 20px 0;
+        background: black;
+        gap: 2rem;
+    }
+
+    /* Estilos para los enlaces dentro del menú */
+    .link-mobile {
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid gray;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.5s ease-in-out;
+        width: 10rem;
+    }
+
+    .link-mobile:hover {
+        background-color: #333;
+    }
+
+}

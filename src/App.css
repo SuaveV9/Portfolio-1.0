@@ -1,0 +1,12 @@
+.content {
+    max-width: 1500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 20px #fff;
+}

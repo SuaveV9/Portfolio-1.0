@@ -1,0 +1,43 @@
+.projects {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 0.1rem 0 1rem 0;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.projects h3 {
+    font-size: 2em;
+}
+
+.projects p {
+    font-size: 1.3em;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0 2rem 0;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px;
+    color: #fff;
+    filter: opacity(.8);
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+@media (width >= 280px) and (width <=767px) {
+    .grid-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (width >= 768px) and (width <= 1439px) {
+    .grid-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
