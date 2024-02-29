@@ -43,6 +43,10 @@ Arkanoid es un videojuego de arcade desarrollado por Taito en 1986. Está basado
 - Vite
 - Astro
 
+## Habilidades Backend
+- NodeJS
+- Express
+
 ## Contacto
 
 Si estás interesado en colaborar o tienes alguna pregunta, no dudes en contactarme:

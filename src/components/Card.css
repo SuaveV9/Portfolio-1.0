@@ -1,175 +1,732 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 
-.card {
-    background: rgba(0, 0, 0, 0.50);
-    border-radius: 10px;
-    gap: 1rem;
-    position: relative;
-    border: 1px solid gray;
-    margin: 0 1rem;
-    transform: skewX(0deg);
-    transform: skewY(0deg);
-    transition: 0.5s;
-    text-decoration: none;
-    padding: 5px 5px 1rem 5px;
-}
-
-.card:hover {
-    transform: skewX(4deg);
-    transform: skewY(4deg);
-}
-
-.card:hover > .project-title {
-    text-shadow: 1px 1px 10px;
-}
-
-.card:hover > .project-desc {
-    text-shadow: 1px 1px 10px;
-    filter: opacity(.8);
-}
-
-.img-container {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.project-title {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    font-size: 3em;
-    font-family: 'Mukta', sans-serif;
-    color: white;
-    transition: .5s ease;
-}
-
-.project-desc {
-    color: white;
-    font-family: 'Mukta', sans-serif;
-    margin-bottom: 0.5rem;
-    padding: 0 0 1rem 0;
-    max-width: 400px;
-    margin: auto;
-    text-wrap: pretty;
-    transition: .5s ease;
-}
-
-.Technologies-flex {
-    display: flex;
-    margin: 1rem 0;
-    font-size: large;
-}
-
-.Technologies-grid {
+.card-grid {
     display: grid;
-    margin: 1rem 0;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
 }
 
-.Technologies-Astro {
-    margin: 0 auto;
-    background: rgba(255, 69, 0, .5);
-    backdrop-filter: blur(10px);
-    outline: 1px solid rgb(255, 69, 0);
-    outline-style: dashed;
-    outline-offset: 2px;
-    border-radius: 10px;
-    padding: 1px 30px;
-}
-
-.Technologies-HTML {
-    margin: 0 auto;
-    background: transparent;
-    background: rgba(255, 165, 0, .5);
-    backdrop-filter: blur(10px);
-    outline: 1px solid rgb(255, 165, 0);
-    outline-offset: 2px;
-    outline-style: dashed;
-    border-radius: 10px;
-    padding: 1px 30px;
-}
-
-.Technologies-Tailwind {
-    margin: 0 auto;
-    background: rgba(135, 206, 235, .5);
-    backdrop-filter: blur(10px);
-    outline: 1px solid rgb(135, 206, 235);
-    outline-offset: 2px;
-    outline-style: dashed;
-    border-radius: 10px;
-    padding: 1px 30px;
-}
-
-.Technologies-Svelte {
-    margin: 0 auto;
-    background: rgba(255, 69, 0, .5);
-    backdrop-filter: blur(10px);
-    outline: 1px solid rgb(255, 69, 0);
-    outline-style: dashed;
-    outline-offset: 2px;
-    border-radius: 10px;
-    padding: 1px 30px;
-}
-
-.Technologies-CSS {
-    margin: 0 auto;
-    background: rgba(23, 23, 252, 0.5);
-    backdrop-filter: blur(10px);
-    outline: 1px solid blue;
-    outline-style: dashed;
-    outline-offset: 2px;
-    border-radius: 10px;
-    padding: 1px 30px;
-}
-
-.Technologies-JavaScript {
-    margin: 0 auto;
-    background: rgba(255, 255, 0, 0.5);
-    backdrop-filter: blur(10px);
-    outline: 1px solid yellow;
-    outline-style: dashed;
-    outline-offset: 2px;
-    border-radius: 10px;
-    padding: 1px 30px; 
-}
-
-.link-page {
-    display: relative;
+a {
     text-decoration: none;
-    color: black;
-    background: white;
+}
+
+
+/* --------------------- Card 1 --------------------- */
+.card-1 {
+    border: 1px solid gray;
     border-radius: 10px;
-    padding: 8px;
-    margin: 0 auto;
-    text-align: center;
-    text-wrap: pretty;
-    transform: scale(1);
-    transition: 0.5s;
-    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.card-1:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1500' height='600' preserveAspectRatio='none' viewBox='0 0 1500 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='1500' height='600' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1073%26quot%3b)'%3e%3c/rect%3e%3cpath d='M137.0235909916046-58.60592915515651L-39.04297714048039-21.181824807959806-1.6188727932836855 154.8847433241252 174.4476953388013 117.4606389769285z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M60.00000000000003 201.42135623730948L187.27922061357856 74.1421356237309-67.27922061357856 74.14213562373095z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-67.1086730056474-1.9950421142158916L-8.506405203359044 168.1983014936611 161.68693840451795 109.59603369137272 103.08467060222958-60.59730991650425z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1427.6743166567562-80.88320528055172L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142 1565.5623164181723 34.81856446302535z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1504.278760968654-16.604444311897794L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1474.2129225792057-77.22053756121666L1319.9228084528254 15.486315922593135 1566.9197760630154 77.06957656516356z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-9.515896774457076 457.73494000705386L-65.85248430876399 563.6886511501251 121.24637617299635 595.2166768800498z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M157.02957262759963 515.8078104400332L-41.81584766204651 462.3241790203738 1.730093545893709 636.9774097500531z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-63.68990517553182 608.5624340121319L109.33720009336555 658.1771580591918 158.95192414042543 485.15005279029447-14.075181128471932 435.5353287432346z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1302.7794624387834 574.2129225792058L1457.0695765651635 666.9197760630155 1549.7764300489735 512.6296619366353 1395.4863159225931 419.9228084528256z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1427.6743166567562 680.8832052805517L1565.5623164181723 565.1814355369746 1449.860546674595 427.2934357755586 1311.972546913179 542.9952055191357z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1579.680224666742 517.8768257917526L1434.0571656792515 412.07548037910743 1473.878879254097 663.4998847792431z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1500' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1073'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.card-1:not(:hover) {
+    background: url("./Project-1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-1>h2 {
+    text-shadow: 0px 0px 0px;
+    text-wrap: balance;
     transition: .5s ease;
 }
 
-.link-page:hover {
-    color: white;
-    background: transparent;
-    text-shadow: 1px 1px 10px;
-    outline: 1px solid white;
+.card-1:hover>h2 {
+    text-shadow: 1px 1px 20px;
+    transform: translateY(10vh);
 }
 
-@media (width >= 280px) and (width <= 1023px) {
-    .project-title {
-        font-size: 1.5em;
+.card-1>p {
+    opacity: 0;
+    text-align: center;
+    transform: translateY(50vh);
+    transition: .5s ease;
+    margin: 0 2rem;
+    text-wrap: pretty;
+}
+
+.card-1:hover>p {
+    opacity: 100;
+    transform: translateY(25vh);
+}
+
+
+/* --------------------- Card 2 --------------------- */
+.card-2 {
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.card-2:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1500' height='600' preserveAspectRatio='none' viewBox='0 0 1500 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='1500' height='600' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1073%26quot%3b)'%3e%3c/rect%3e%3cpath d='M137.0235909916046-58.60592915515651L-39.04297714048039-21.181824807959806-1.6188727932836855 154.8847433241252 174.4476953388013 117.4606389769285z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M60.00000000000003 201.42135623730948L187.27922061357856 74.1421356237309-67.27922061357856 74.14213562373095z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-67.1086730056474-1.9950421142158916L-8.506405203359044 168.1983014936611 161.68693840451795 109.59603369137272 103.08467060222958-60.59730991650425z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1427.6743166567562-80.88320528055172L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142 1565.5623164181723 34.81856446302535z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1504.278760968654-16.604444311897794L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1474.2129225792057-77.22053756121666L1319.9228084528254 15.486315922593135 1566.9197760630154 77.06957656516356z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-9.515896774457076 457.73494000705386L-65.85248430876399 563.6886511501251 121.24637617299635 595.2166768800498z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M157.02957262759963 515.8078104400332L-41.81584766204651 462.3241790203738 1.730093545893709 636.9774097500531z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-63.68990517553182 608.5624340121319L109.33720009336555 658.1771580591918 158.95192414042543 485.15005279029447-14.075181128471932 435.5353287432346z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1302.7794624387834 574.2129225792058L1457.0695765651635 666.9197760630155 1549.7764300489735 512.6296619366353 1395.4863159225931 419.9228084528256z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1427.6743166567562 680.8832052805517L1565.5623164181723 565.1814355369746 1449.860546674595 427.2934357755586 1311.972546913179 542.9952055191357z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1579.680224666742 517.8768257917526L1434.0571656792515 412.07548037910743 1473.878879254097 663.4998847792431z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1500' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1073'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.card-2:not(:hover) {
+    background: url("./Project-2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2>h2 {
+    text-shadow: 0px 0px 0px;
+    text-wrap: balance;
+    transition: .5s ease;
+}
+
+.card-2:hover>h2 {
+    text-shadow: 1px 1px 20px;
+    transform: translateY(10vh);
+}
+
+.card-2>p {
+    opacity: 0;
+    text-align: center;
+    transform: translateY(50vh);
+    transition: .5s ease;
+    margin: 0 2rem;
+    text-wrap: pretty;
+}
+
+.card-2:hover>p {
+    opacity: 100;
+    transform: translateY(25vh);
+}
+
+/* --------------------- Card 3 --------------------- */
+
+.card-3 {
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.card-3:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1400' height='700' preserveAspectRatio='none' viewBox='0 0 1400 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3crect width='1400' height='700' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1083%26quot%3b)'%3e%3c/rect%3e%3cpath d='M184.11722008561065 45.74363607126139L-45.55013999722715-24.71212894261977-1.888684925497671 180.6988672114794z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M208.37358401434932 159.8608561568721L164.71212894261987-45.55013999722709-40.698867211479325-1.8886849254976426 2.9625878602501245 203.52231122860155z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-79.53315581301729 139.7284557036947L117.80229455202351 211.55268580208502 189.62652465041384 14.21723543704421-7.708925714626972-57.60699466134611z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1276.2839950571565 226.0026058602952L1465.0307447799817 133.94466503458887 1372.9728039542752-54.80208468823622 1184.2260542314502 37.25585613747015z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1465.1531919125664-24.635283790282404L1258.3435637800026-61.10140110033777 1221.8774464699472 145.70822703222592 1428.687074602511 182.1743443422813z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1173.997394139705 123.71600494284378L1362.74414386253 215.77394576855005 1454.8020846882364 27.02719604572495 1266.0553349654112-65.0307447799813z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-44.064434430029564 577.291426816443L-51.3914683040417 717.0995616820834 161.98425093142487 658.1860450602815z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M98.6504875927604 792.4849894080044L219.10153922648004 620.4630601073161-73.37144170792793 672.0339377742847z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M131.80693457903607 477.0224687734666L-61.49908464597638 559.0760057562142 20.554452336771163 752.3820249812266 213.8604715617836 670.328487998479z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1417.4322178848267 490.07920276827156L1212.8145042799274 537.3189241804832 1260.054225692139 741.9366377853826 1464.6719392970383 694.696916373171z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1235.3647162097177 765.1531919125661L1442.1743443422815 728.6870746025107 1405.708227032226 521.877446469947 1198.8985988996624 558.3435637800023z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1327.120499847374 794.9664532597255L1478.1818579184908 649.088195463336 1332.3036001221012 498.02683739221936 1181.2422420509845 643.9050951886088z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1400' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1083'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-3:not(:hover) {
+    background: url("./Project-3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-3>h2 {
+    text-shadow: 1px 1px 0px;
+    text-wrap: balance;
+    transition: .5s ease;
+}
+
+.card-3:hover>h2 {
+    text-shadow: 1px 1px 20px;
+    transform: translateY(10vh);
+}
+
+.card-3>p {
+    opacity: 0;
+    text-align: center;
+    transform: translateY(50vh);
+    transition: .5s ease;
+    margin: 0 2rem;
+    text-wrap: pretty;
+}
+
+.card-3:hover>p {
+    opacity: 100;
+    transform: translateY(30vh);
+}
+
+/* --------------------- Tecnologias --------------------- */
+
+.Technologies {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.card-1:hover>.Technologies {
+    opacity: 100;
+    transform: translateY(3vh);
+}
+
+.card-2:hover>.Technologies {
+    opacity: 100;
+    transform: translateY(6vh);
+}
+
+.card-3:hover>.Technologies {
+    opacity: 100;
+    transform: translateY(9vh);
+}
+
+/* Astro */
+.technology-Astro {
+    margin: 0 1rem;
+    --orangered: orangered;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--orangered);
+    background: linear-gradient(to right, rgba(255, 60, 0, 0.1) 1%, transparent 40%, transparent 60%, rgba(255, 60, 0, 0.1) 100%);
+    color: var(--orangered);
+    box-shadow: inset 0 0 10px rgba(202, 30, 0, 0.4), 0 0 9px 3px rrgba(255, 81, 0, 0.1)
+}
+
+.technology-Astro:hover {
+    color: orangered;
+    box-shadow: inset 0 0 10px rgba(255, 60, 0, 0.6), 0 0 9px 3px rgba(255, 30, 0, 0.2);
+}
+
+.technology-Astro::before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(255, 17, 0, 0.1) 40%, rgba(255, 51, 0, 0.1) 60%, transparent 100%);
+}
+
+.technology-Astro:hover::before {
+    transform: translateX(15em);
+}
+
+/* Astro */
+
+/* HTML */
+.technology-HTML {
+    margin: 0 1rem;
+    --orange: orange;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--orange);
+    background: linear-gradient(to right, rgba(255, 102, 0, 0.1) 1%, transparent 40%, transparent 60%, rgba(255, 102, 0, 0.1) 100%);
+    color: var(--orange);
+    box-shadow: inset 0 0 10px rgba(202, 74, 0, 0.4), 0 0 9px 3px rrgba(255, 115, 0, 0.1)
+}
+
+.technology-HTML:hover {
+    color: orange;
+    box-shadow: inset 0 0 10px rgba(255, 81, 0, 0.6), 0 0 9px 3px rrgba(255, 72, 0, 0.2)
+}
+
+.technology-HTML::before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(255, 51, 0, 0.1) 40%, rgba(255, 60, 0, 0.1) 60%, transparent 100%);
+}
+
+.technology-HTML:hover::before {
+    transform: translateX(15em);
+}
+
+/* HTML */
+
+/* Tailwind */
+.technology-Tailwind {
+    margin: 0 1rem;
+    --skyblue: skyblue;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--skyblue);
+    background: linear-gradient(to right, rgba(0, 81, 255, 0.1) 1%, transparent 40%, transparent 60%, rgba(0, 81, 255, 0.1) 100%);
+    color: var(--skyblue);
+    box-shadow: inset 0 0 10px rgba(1, 71, 223, 0.4), 0 0 9px 3px rrgba(0, 81, 255, 0.1)
+}
+
+.technology-Tailwind:hover {
+    color: skyblue;
+    box-shadow: inset 0 0 10px rgba(0, 38, 255, 0.6), 0 0 9px 3px rgba(0, 50, 255, 0.2)
+}
+
+.technology-Tailwind::before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(0, 38, 255, 0.1) 40%, rgba(0, 4, 255, 0.1) 60%, transparent 100%);
+}
+
+.technology-Tailwind:hover::before {
+    transform: translateX(15em);
+}
+
+/* Tailwind */
+
+/* JavaScript */
+.technology-JavaScript {
+    margin: 0 1rem;
+    --yellow: yellow;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--yellow);
+    background: linear-gradient(to right, rgba(238, 255, 0, 0.1) 1%, transparent 40%, transparent 60%, rgba(255, 230, 0, 0.1) 100%);
+    color: var(--yellow);
+    box-shadow: inset 0 0 10px rgba(1, 71, 223, 0.4), 0 0 9px 3px rgba(0, 81, 255, 0.1)
+}
+
+.technology-JavaScript:hover {
+    color: yellow;
+    box-shadow: inset 0 0 10px rgba(251, 255, 0, 0.6), 0 0 9px 3px rgba(255, 208, 0, 0.2);
+}
+
+.technology-JavaScript::before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(238, 255, 0, 0.1) 40%, rgba(238, 255, 0, 0.1) 60%, transparent 100%);
+}
+
+.technology-JavaScript:hover::before {
+    transform: translateX(15em);
+}
+
+/* JavaScript */
+
+/* Boton de redireccionamiento a la pagina del proyecto */
+
+/* Clase del boton de la primera tarjeta */
+.button-page-1 {
+    opacity: 0;
+    transform: translateY(35vh);
+    transition: .5s ease;
+}
+
+.card-1:hover>.button-page-1 {
+    opacity: 100;
+    transform: translateY(25vh);
+}
+
+/* Clase del boton de la primera tarjeta */
+
+/* Clase del boton de la segunda tarjeta */
+.button-page-2 {
+    opacity: 0;
+    transform: translateY(40vh);
+    transition: .5s ease;
+}
+
+.card-2:hover>.button-page-2 {
+    opacity: 100;
+    transform: translateY(28vh);
+}
+
+/* Clase del boton de la segunda tarjeta */
+
+/* Clase del boton de la tercera tarjeta */
+.button-page-3 {
+    opacity: 0;
+    transform: translateY(60vh);
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.card-3:hover>.button-page-3 {
+    opacity: 100;
+    transform: translateY(40vh);
+}
+
+/* Clase del boton de la tercera tarjeta */
+
+/* Boton de redireccionamiento a la pagina del proyecto 1 */
+.button-page-1 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button-page-1>a {
+    padding: 10px 5px;
+}
+
+.button-page-1:active,
+.button-page-1:hover {
+    outline: 0;
+}
+
+.button-page-1 a {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-page-1:hover a {
+    background: none;
+}
+
+.button-page-1:active {
+    transform: scale(0.9);
+}
+/* Boton de redireccionamiento a la pagina del proyecto 1 */
+
+/* Boton de redireccionamiento a la pagina del proyecto 2 */
+.button-page-2 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button-page-2 a {
+    padding: 10px 5px;
+}
+
+.button-page-2:active,
+.button-page-2:hover {
+    outline: 0;
+}
+
+.button-page-2 a {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-page-2:hover a {
+    background: none;
+}
+
+.button-page-2:active {
+    transform: scale(0.9);
+}
+/* Boton de redireccionamiento a la pagina del proyecto 2 */
+
+/* Boton de redireccionamiento a la pagina del proyecto 3 */
+.button-page-3 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button-page-3 a {
+    padding: 10px 5px;
+}
+
+.button-page-3:active,
+.button-page-3:hover {
+    outline: 0;
+}
+
+.button-page-3 a {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-page-3:hover a {
+    background: none;
+}
+
+.button-page-3:active {
+    transform: scale(0.9);
+}
+/* Boton de redireccionamiento a la pagina del proyecto 3 */
+
+/* --------------------- Ocultar tarjetas de celular en computadoras y laptop --------------------- */
+.display-block-mobile {
+    display: none;
+}
+
+@media (width >=280px) and (width <=768px) {
+
+    .display-block-mobile {
+        display: block;
     }
 
-    .card:hover {
-        transform: skewX(0deg);
-        transform: skewY(0deg);
+    /* --------------------- Card 1 --------------------- */
+    .card-1-mobile {
+        display: block;
+        background: url("./Project-1.webp");
+        background-position: center;
+        background-size: cover;
+        border: 1px solid gray;
+        border-radius: 10px;
+        transition: .2s ease;
+        overflow: hidden;
+        height: 700px;
+        margin: 0 0 1rem;
     }
 
-    .Technologies-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+    .card-1-mobile:hover {
+        background: url("./bg.webp");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card-1-mobile>h2 {
+        text-shadow: 0px 0px 0px;
+        transition: .5s ease;
+    }
+
+    .card-1-mobile:hover>h2 {
+        text-shadow: 1px 1px 20px;
+        transform: translateY(10vh);
+    }
+
+    .card-1-mobile>p {
+        opacity: 0;
+        text-align: center;
+        transform: translateY(75vh);
+        text-wrap: pretty;
+        transition: .5s ease;
+        margin: 0 .5rem;
+    }
+
+    .card-1-mobile:hover>p {
+        opacity: 100;
+        transform: translateY(35vh);
+    }
+
+    /* --------------------- Card 2 --------------------- */
+    .card-2-mobile {
+        display: block;
+        background: url("./Project-2.webp");
+        background-position: center;
+        background-size: cover;
+        border: 1px solid gray;
+        border-radius: 10px;
+        transition: .2s ease;
+        overflow: hidden;
+        height: 700px;
+        margin: 0 0 1rem;
+    }
+
+    .card-2-mobile:hover {
+        background: url("./bg.webp");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card-2-mobile>h2 {
+        text-shadow: 0px 0px 0px;
+        transition: .5s ease;
+    }
+
+    .card-2-mobile:hover>h2 {
+        text-shadow: 1px 1px 20px;
+        transform: translateY(10vh);
+    }
+
+    .card-2-mobile>p {
+        opacity: 0;
+        text-align: center;
+        transform: translateY(75vh);
+        text-wrap: pretty;
+        transition: .5s ease;
+        margin: 0 .5rem;
+    }
+
+    .card-2-mobile:hover>p {
+        opacity: 100;
+        transform: translateY(35vh);
+    }
+
+    /* --------------------- Card 3 --------------------- */
+    .card-3-mobile {
+        display: block;
+        background: url("./Project-3.webp");
+        background-position: center;
+        background-size: cover;
+        border: 1px solid gray;
+        border-radius: 10px;
+        transition: .2s ease;
+        overflow: hidden;
+        height: 700px;
+    }
+
+    .card-3-mobile:hover {
+        background: url("./bg.webp");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card-3-mobile>h2 {
+        text-shadow: 0px 0px 0px;
+        transition: .5s ease;
+    }
+
+    .card-3-mobile:hover>h2 {
+        text-shadow: 1px 1px 20px;
+        transform: translateY(10vh);
+    }
+
+    .card-3-mobile>p {
+        opacity: 0;
+        text-align: center;
+        transform: translateY(75vh);
+        text-wrap: pretty;
+        transition: .5s ease;
+        margin: 0 .5rem;
+    }
+
+    .card-3-mobile:hover>p {
+        opacity: 100;
+        transform: translateY(35vh);
+    }
+}
+
+@media (width >=1024px) and (width <=1439px) {
+    .technology-Astro {
+        margin: 0 .5rem;
+    }
+
+    .technology-HTML {
+        margin: 0 .5rem;
+    }
+
+    .technology-Tailwind {
+        margin: 0 .5rem;
+    }
+
+    .technology-JavaScript {
+        margin: 0 .5rem;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(28vh);
+    }
+
+    .card-1:hover>.Technologies {
+        transform: translateY(0vh);
+    }
+
+    .card-2:hover>p {
+        transform: translateY(28vh);
+    }
+
+    .card-2:hover>.Technologies {
+        transform: translateY(0vh);
+    }
+
+    .card-3:hover>p {
+        transform: translateY(40vh);
+    }
+}
+
+@media (width >=1160px) and (width <=1439px) {
+    .card-2:hover>.Technologies {
+        transform: translateY(2vh);
+    }
+}
+
+@media (width >=1218px) and (width <=1439px) {
+    .card-1:hover>.Technologies {
+        transform: translateY(3vh);
     }
 }

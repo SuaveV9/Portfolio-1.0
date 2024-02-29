@@ -5,24 +5,27 @@ import "./Card.css";
 function Card(props) {
   return (
     <>
-      <section className="card">
-        <img src={props.project} alt="Project" className="img-container" />
-        <span className="project-title">{props.title}</span>
-        <pre className="project-desc">{props.desc}</pre>
-        <div className={props.TechnologiesFatherClassName}>
-          <div className={props.technologyClassName1}>
-            <span>{props.technology1}</span>
+      <section className="card-grid">
+        <div className={props.cardClassName}>
+          <h2>{props.titleProject}</h2>
+          <p>{props.descProject}</p>
+          <div className="Technologies">
+            <button className={props.technologyClassName1}>
+              {props.technologyName1}
+            </button>
+            <button className={props.technologyClassName2}>
+              {props.technologyName2}
+            </button>
+            <button className={props.technologyClassName3}>
+              {props.technologyName3}
+            </button>
           </div>
-          <div className={props.technologyClassName2}>
-            <span>{props.technology2}</span>
-          </div>
-          <div className={props.technologyClassName3}>
-            <span>{props.technology3}</span>
+          <div className={props.buttonPageClassName}>
+            <a href={props.hrefPage} className="link-page">
+              <span>Ir a {props.namePage}</span>
+            </a>
           </div>
         </div>
-        <a href={props.page} target="_blank" className="link-page">
-          Ir a la pagina del proyecto
-        </a>
       </section>
     </>
   );

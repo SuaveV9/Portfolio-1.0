@@ -7,47 +7,74 @@ function Projects() {
       <section className="projects">
         <h2>Proyectos</h2>
         <p>Aqui hay algunos proyectos en los que he trabajado:</p>
+        <p className="mobile-information">
+          Presiona sobre cualquier tarjeta para mas informacion
+        </p>
         <section className="grid-cards">
           <Card
-            project="./Project-1.webp"
-            title="NebuVerse"
-            page="https://nebuverse.netlify.app/"
-            desc="Nebuverse es un proyecto que nacio de una idea entre amigos con el fin de poder darnos a conocer y ofrecer servicios de desarrollo web Freelance"
-            TechnologiesFatherClassName="Technologies-grid"
-            technologyClassName1="Technologies-Astro"
-            technologyClassName2="Technologies-HTML"
-            technologyClassName3="Technologies-Tailwind"
-            technology1="Astro"
-            technology2="HTML"
-            technology3="Tailwind"
+            cardClassName="card-1"
+            titleProject="NebuVerse"
+            descProject="Nebuverse es un proyecto que nacio de una idea entre amigos con el fin de poder darnos a conocer y ofrecer servicios de desarrollo web Freelance"
+            technologyClassName1="technology-Astro" 
+            technologyName1="Astro"
+            technologyClassName2="technology-HTML"
+            technologyName2="HTML"
+            technologyClassName3="technology-Tailwind"
+            technologyName3="Tailwind"
+            buttonPageClassName="button-page-1"
+            hrefPage="https://nebuverse.netlify.app/"
+            namePage="NebuVerse"
           />
 
           <Card
-            project="./Project-2.webp"
-            title="MortyApiHub"
-            page="https://mortyapihub.netlify.app/"
-            desc="MortyApiHub es un catalogo completo con todos los personajes de la serie animada de 'Rick And Morty' y funciona a traves de una API"
-            TechnologiesFatherClassName="Technologies-flex"
-            technologyClassName1="Technologies-Svelte"
-            technologyClassName2="Technologies-CSS"
-            technology1="Svelte"
-            technology2="CSS"
+            cardClassName="card-2"
+            titleProject="MortyApiHub"
+            descProject="MortyApiHub es un catálogo completo con todos los personajes de la serie animada de 'Rick And Morty' y funciona a través de una API"
+            technologyClassName1="technology-Astro" 
+            technologyName1="Svelte"
+            technologyClassName2="technology-Tailwind"
+            technologyName2="CSS"
+            buttonPageClassName="button-page-2"
+            hrefPage="https://mortyapihub.netlify.app/"
+            namePage="MortyApiHub"
+          />
+        </section>
+
+        <section className="grid-cards-2">
+          <Card
+            cardClassName="card-3"
+            titleProject="Arkanoid Game"
+            descProject="Arkanoid es un videojuego de arcade desarrollado por Taito en 1986. Está basado en Breakout de Atari de 1976 y esta es una version hecha por mi"
+            technologyClassName1="technology-HTML" 
+            technologyName1="HTML"
+            technologyClassName2="technology-Tailwind"
+            technologyName2="CSS"
+            technologyClassName3="technology-JavaScript"
+            technologyName3="JavaScript"
+            buttonPageClassName="button-page-3"
+            hrefPage="https://arkanoidgameproject.netlify.app/"
+            namePage="Arkanoid Game"
+          />
+        </section>
+
+        <section className="display-block-mobile">
+          <Card
+            cardClassName="card-1-mobile"
+            titleProject="NebuVerse"
+            descProject="Nebuverse es un proyecto que nacio de una idea entre amigos con el fin de poder darnos a conocer y ofrecer servicios de desarrollo web Freelance"
           />
 
-          <Card 
-          project="./Project-3.webp"
-          title="Arkanoid Game"
-          page="https://arkanoidgameproject.netlify.app/"
-          desc="Arkanoid es un videojuego de arcade desarrollado por Taito en 1986. Está basado en Breakout de Atari de 1976 y esta es una version hecha por mi"
-          TechnologiesFatherClassName="Technologies-grid"
-          technologyClassName1="Technologies-HTML"
-          technologyClassName2="Technologies-CSS"
-          technologyClassName3="Technologies-JavaScript"
-          technology1="HTML"
-          technology2="CSS"
-          technology3="JavaScript"
+          <Card
+            cardClassName="card-2-mobile"
+            titleProject="MortyApiHub"
+            descProject="MortyApiHub es un catalogo completo con todos los personajes de la serie animada de 'Rick And Morty' y funciona a traves de una API: Creditos a Axel Fuhrmann"
           />
-          
+
+          <Card
+            cardClassName="card-3-mobile"
+            titleProject="Arkanoid Game"
+            descProject="Arkanoid es un videojuego de arcade desarrollado por Taito en 1986. Está basado en Breakout de Atari de 1976 y esta es una version hecha por mi"
+          />
         </section>
       </section>
     </>
