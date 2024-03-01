@@ -23,7 +23,7 @@ function Header() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Github <img src="./github-color-svgrepo-com.svg" alt="github" />
+                Github <img src="./github-color-svgrepo-com.svg" alt="github-icon" />
               </a>
             </li>
             <li>
@@ -33,12 +33,12 @@ function Header() {
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn <img src="./linkedin-svgrepo-com.svg" alt="linkedin" />
+                LinkedIn <img src="./linkedin-svgrepo-com.svg" alt="linkedin-icon" />
               </a>
             </li>
             <li>
               <a href="mailto:" className="link">
-                Contáctame <img src="./ms-outlook-svgrepo-com.svg" alt="outlook" />
+                Contáctame <img src="./ms-outlook-svgrepo-com.svg" alt="outlook-icon" />
               </a>
             </li>
           </ul>
@@ -71,7 +71,7 @@ function Header() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Github <img src="./github-color-svgrepo-com.svg" alt="github" />
+                Github <img src="./github-color-svgrepo-com.svg" alt="github-icon" />
               </a>
             </li>
             <li>
@@ -81,12 +81,12 @@ function Header() {
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn <img src="./linkedin-svgrepo-com.svg" alt="linkedin" />
+                LinkedIn <img src="./linkedin-svgrepo-com.svg" alt="linkedin-icon" />
               </a>
             </li>
             <li>
               <a href="mailto:" className="link-mobile">
-                Contáctame <img src="./ms-outlook-svgrepo-com.svg" alt="outlook" />
+                Contáctame <img src="./ms-outlook-svgrepo-com.svg" alt="outlook-icon" />
               </a>
             </li>
           </ul>

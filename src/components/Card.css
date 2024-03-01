@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 
-.card-grid {
-    display: grid;
-}
-
 a {
     text-decoration: none;
 }
@@ -15,16 +11,15 @@ a {
     border-radius: 10px;
     overflow: hidden;
     transition: .3s ease;
+    background: url("../Project-1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-1:hover {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1500' height='600' preserveAspectRatio='none' viewBox='0 0 1500 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='1500' height='600' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1073%26quot%3b)'%3e%3c/rect%3e%3cpath d='M137.0235909916046-58.60592915515651L-39.04297714048039-21.181824807959806-1.6188727932836855 154.8847433241252 174.4476953388013 117.4606389769285z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M60.00000000000003 201.42135623730948L187.27922061357856 74.1421356237309-67.27922061357856 74.14213562373095z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-67.1086730056474-1.9950421142158916L-8.506405203359044 168.1983014936611 161.68693840451795 109.59603369137272 103.08467060222958-60.59730991650425z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1427.6743166567562-80.88320528055172L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142 1565.5623164181723 34.81856446302535z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1504.278760968654-16.604444311897794L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1474.2129225792057-77.22053756121666L1319.9228084528254 15.486315922593135 1566.9197760630154 77.06957656516356z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-9.515896774457076 457.73494000705386L-65.85248430876399 563.6886511501251 121.24637617299635 595.2166768800498z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M157.02957262759963 515.8078104400332L-41.81584766204651 462.3241790203738 1.730093545893709 636.9774097500531z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-63.68990517553182 608.5624340121319L109.33720009336555 658.1771580591918 158.95192414042543 485.15005279029447-14.075181128471932 435.5353287432346z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1302.7794624387834 574.2129225792058L1457.0695765651635 666.9197760630155 1549.7764300489735 512.6296619366353 1395.4863159225931 419.9228084528256z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1427.6743166567562 680.8832052805517L1565.5623164181723 565.1814355369746 1449.860546674595 427.2934357755586 1311.972546913179 542.9952055191357z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1579.680224666742 517.8768257917526L1434.0571656792515 412.07548037910743 1473.878879254097 663.4998847792431z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1500' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1073'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
-}
-
-.card-1:not(:hover) {
-    background: url("./Project-1.webp");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: initial;
     background-size: cover;
 }
 
@@ -60,16 +55,15 @@ a {
     border-radius: 10px;
     overflow: hidden;
     transition: .3s ease;
+    background: url("../Project-2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-2:hover {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1500' height='600' preserveAspectRatio='none' viewBox='0 0 1500 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='1500' height='600' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1073%26quot%3b)'%3e%3c/rect%3e%3cpath d='M137.0235909916046-58.60592915515651L-39.04297714048039-21.181824807959806-1.6188727932836855 154.8847433241252 174.4476953388013 117.4606389769285z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M60.00000000000003 201.42135623730948L187.27922061357856 74.1421356237309-67.27922061357856 74.14213562373095z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-67.1086730056474-1.9950421142158916L-8.506405203359044 168.1983014936611 161.68693840451795 109.59603369137272 103.08467060222958-60.59730991650425z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1427.6743166567562-80.88320528055172L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142 1565.5623164181723 34.81856446302535z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1504.278760968654-16.604444311897794L1311.972546913179 57.00479448086435 1449.8605466745953 172.70656422444142z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1474.2129225792057-77.22053756121666L1319.9228084528254 15.486315922593135 1566.9197760630154 77.06957656516356z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-9.515896774457076 457.73494000705386L-65.85248430876399 563.6886511501251 121.24637617299635 595.2166768800498z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M157.02957262759963 515.8078104400332L-41.81584766204651 462.3241790203738 1.730093545893709 636.9774097500531z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-63.68990517553182 608.5624340121319L109.33720009336555 658.1771580591918 158.95192414042543 485.15005279029447-14.075181128471932 435.5353287432346z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1302.7794624387834 574.2129225792058L1457.0695765651635 666.9197760630155 1549.7764300489735 512.6296619366353 1395.4863159225931 419.9228084528256z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1427.6743166567562 680.8832052805517L1565.5623164181723 565.1814355369746 1449.860546674595 427.2934357755586 1311.972546913179 542.9952055191357z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1579.680224666742 517.8768257917526L1434.0571656792515 412.07548037910743 1473.878879254097 663.4998847792431z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1500' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1073'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
-}
-
-.card-2:not(:hover) {
-    background: url("./Project-2.webp");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: initial;
     background-size: cover;
 }
 
@@ -105,19 +99,15 @@ a {
     border-radius: 10px;
     overflow: hidden;
     transition: .3s ease;
-}
-
-.card-3:hover {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1400' height='700' preserveAspectRatio='none' viewBox='0 0 1400 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3crect width='1400' height='700' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1083%26quot%3b)'%3e%3c/rect%3e%3cpath d='M184.11722008561065 45.74363607126139L-45.55013999722715-24.71212894261977-1.888684925497671 180.6988672114794z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M208.37358401434932 159.8608561568721L164.71212894261987-45.55013999722709-40.698867211479325-1.8886849254976426 2.9625878602501245 203.52231122860155z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-79.53315581301729 139.7284557036947L117.80229455202351 211.55268580208502 189.62652465041384 14.21723543704421-7.708925714626972-57.60699466134611z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1276.2839950571565 226.0026058602952L1465.0307447799817 133.94466503458887 1372.9728039542752-54.80208468823622 1184.2260542314502 37.25585613747015z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1465.1531919125664-24.635283790282404L1258.3435637800026-61.10140110033777 1221.8774464699472 145.70822703222592 1428.687074602511 182.1743443422813z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1173.997394139705 123.71600494284378L1362.74414386253 215.77394576855005 1454.8020846882364 27.02719604572495 1266.0553349654112-65.0307447799813z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-44.064434430029564 577.291426816443L-51.3914683040417 717.0995616820834 161.98425093142487 658.1860450602815z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M98.6504875927604 792.4849894080044L219.10153922648004 620.4630601073161-73.37144170792793 672.0339377742847z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M131.80693457903607 477.0224687734666L-61.49908464597638 559.0760057562142 20.554452336771163 752.3820249812266 213.8604715617836 670.328487998479z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1417.4322178848267 490.07920276827156L1212.8145042799274 537.3189241804832 1260.054225692139 741.9366377853826 1464.6719392970383 694.696916373171z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1235.3647162097177 765.1531919125661L1442.1743443422815 728.6870746025107 1405.708227032226 521.877446469947 1198.8985988996624 558.3435637800023z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1327.120499847374 794.9664532597255L1478.1818579184908 649.088195463336 1332.3036001221012 498.02683739221936 1181.2422420509845 643.9050951886088z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1400' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1083'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background: url("../Project-3.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card-3:not(:hover) {
-    background: url("./Project-3.webp");
-    background-position: center;
-    background-repeat: no-repeat;
+.card-3:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1400' height='700' preserveAspectRatio='none' viewBox='0 0 1400 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3crect width='1400' height='700' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1083%26quot%3b)'%3e%3c/rect%3e%3cpath d='M184.11722008561065 45.74363607126139L-45.55013999722715-24.71212894261977-1.888684925497671 180.6988672114794z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M208.37358401434932 159.8608561568721L164.71212894261987-45.55013999722709-40.698867211479325-1.8886849254976426 2.9625878602501245 203.52231122860155z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-79.53315581301729 139.7284557036947L117.80229455202351 211.55268580208502 189.62652465041384 14.21723543704421-7.708925714626972-57.60699466134611z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1276.2839950571565 226.0026058602952L1465.0307447799817 133.94466503458887 1372.9728039542752-54.80208468823622 1184.2260542314502 37.25585613747015z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1465.1531919125664-24.635283790282404L1258.3435637800026-61.10140110033777 1221.8774464699472 145.70822703222592 1428.687074602511 182.1743443422813z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1173.997394139705 123.71600494284378L1362.74414386253 215.77394576855005 1454.8020846882364 27.02719604572495 1266.0553349654112-65.0307447799813z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-44.064434430029564 577.291426816443L-51.3914683040417 717.0995616820834 161.98425093142487 658.1860450602815z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M98.6504875927604 792.4849894080044L219.10153922648004 620.4630601073161-73.37144170792793 672.0339377742847z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M131.80693457903607 477.0224687734666L-61.49908464597638 559.0760057562142 20.554452336771163 752.3820249812266 213.8604715617836 670.328487998479z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1417.4322178848267 490.07920276827156L1212.8145042799274 537.3189241804832 1260.054225692139 741.9366377853826 1464.6719392970383 694.696916373171z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1235.3647162097177 765.1531919125661L1442.1743443422815 728.6870746025107 1405.708227032226 521.877446469947 1198.8985988996624 558.3435637800023z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1327.120499847374 794.9664532597255L1478.1818579184908 649.088195463336 1332.3036001221012 498.02683739221936 1181.2422420509845 643.9050951886088z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1400' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1083'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-position: initial;
     background-size: cover;
 }
 
@@ -143,7 +133,7 @@ a {
 
 .card-3:hover>p {
     opacity: 100;
-    transform: translateY(30vh);
+    transform: translateY(25vh);
 }
 
 /* --------------------- Tecnologias --------------------- */
@@ -157,7 +147,7 @@ a {
 
 .card-1:hover>.Technologies {
     opacity: 100;
-    transform: translateY(3vh);
+    transform: translateY(6vh);
 }
 
 .card-2:hover>.Technologies {
@@ -167,7 +157,7 @@ a {
 
 .card-3:hover>.Technologies {
     opacity: 100;
-    transform: translateY(9vh);
+    transform: translateY(6vh);
 }
 
 /* Astro */
@@ -209,8 +199,6 @@ a {
     transform: translateX(15em);
 }
 
-/* Astro */
-
 /* HTML */
 .technology-HTML {
     margin: 0 1rem;
@@ -250,7 +238,7 @@ a {
     transform: translateX(15em);
 }
 
-/* HTML */
+
 
 /* Tailwind */
 .technology-Tailwind {
@@ -291,7 +279,7 @@ a {
     transform: translateX(15em);
 }
 
-/* Tailwind */
+
 
 /* JavaScript */
 .technology-JavaScript {
@@ -332,7 +320,6 @@ a {
     transform: translateX(15em);
 }
 
-/* JavaScript */
 
 /* Boton de redireccionamiento a la pagina del proyecto */
 
@@ -348,36 +335,32 @@ a {
     transform: translateY(25vh);
 }
 
-/* Clase del boton de la primera tarjeta */
-
 /* Clase del boton de la segunda tarjeta */
 .button-page-2 {
     opacity: 0;
-    transform: translateY(40vh);
+    transform: translateY(35vh);
     transition: .5s ease;
 }
 
 .card-2:hover>.button-page-2 {
     opacity: 100;
-    transform: translateY(28vh);
+    transform: translateY(25vh);
 }
 
-/* Clase del boton de la segunda tarjeta */
 
 /* Clase del boton de la tercera tarjeta */
 .button-page-3 {
     opacity: 0;
-    transform: translateY(60vh);
+    transform: translateY(35vh);
     transition: .5s ease;
     text-decoration: none;
 }
 
 .card-3:hover>.button-page-3 {
     opacity: 100;
-    transform: translateY(40vh);
+    transform: translateY(25vh);
 }
 
-/* Clase del boton de la tercera tarjeta */
 
 /* Boton de redireccionamiento a la pagina del proyecto 1 */
 .button-page-1 {
@@ -405,8 +388,9 @@ a {
     transition: all .3s;
 }
 
-.button-page-1>a {
+.button-page-1 a {
     padding: 10px 5px;
+    color: white;
 }
 
 .button-page-1:active,
@@ -430,7 +414,6 @@ a {
 .button-page-1:active {
     transform: scale(0.9);
 }
-/* Boton de redireccionamiento a la pagina del proyecto 1 */
 
 /* Boton de redireccionamiento a la pagina del proyecto 2 */
 .button-page-2 {
@@ -460,6 +443,7 @@ a {
 
 .button-page-2 a {
     padding: 10px 5px;
+    color: white;
 }
 
 .button-page-2:active,
@@ -483,7 +467,6 @@ a {
 .button-page-2:active {
     transform: scale(0.9);
 }
-/* Boton de redireccionamiento a la pagina del proyecto 2 */
 
 /* Boton de redireccionamiento a la pagina del proyecto 3 */
 .button-page-3 {
@@ -513,6 +496,7 @@ a {
 
 .button-page-3 a {
     padding: 10px 5px;
+    color: white;
 }
 
 .button-page-3:active,
@@ -536,152 +520,482 @@ a {
 .button-page-3:active {
     transform: scale(0.9);
 }
-/* Boton de redireccionamiento a la pagina del proyecto 3 */
 
-/* --------------------- Ocultar tarjetas de celular en computadoras y laptop --------------------- */
-.display-block-mobile {
-    display: none;
-}
-
-@media (width >=280px) and (width <=768px) {
-
-    .display-block-mobile {
-        display: block;
+/* --------------- Medidas de las tarjetas en moviles --------------- */
+@media (width >=280px) and (width <=319px) {
+    .Technologies {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: .5rem;
     }
 
-    /* --------------------- Card 1 --------------------- */
-    .card-1-mobile {
-        display: block;
-        background: url("./Project-1.webp");
-        background-position: center;
-        background-size: cover;
-        border: 1px solid gray;
-        border-radius: 10px;
-        transition: .2s ease;
-        overflow: hidden;
-        height: 700px;
-        margin: 0 0 1rem;
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1>h2 {
+        font-size: 1.7em;
     }
 
-    .card-1-mobile:hover {
-        background: url("./bg.webp");
-        background-position: center;
-        background-size: cover;
+    .card-1:hover>h2 {
+        transform: translateY(1dvh);
     }
 
-    .card-1-mobile>h2 {
-        text-shadow: 0px 0px 0px;
-        transition: .5s ease;
+    .card-1:hover>.Technologies {
+        transform: translateY(-26vh);
     }
 
-    .card-1-mobile:hover>h2 {
-        text-shadow: 1px 1px 20px;
+    .card-1>p {
+        font-size: 1em;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(30vh);
+    }
+
+    .button-page-1 {
+        transform: translateY(20vh);
+    }
+
+    .card-1:hover>.button-page-1 {
         transform: translateY(10vh);
     }
 
-    .card-1-mobile>p {
-        opacity: 0;
-        text-align: center;
-        transform: translateY(75vh);
-        text-wrap: pretty;
-        transition: .5s ease;
-        margin: 0 .5rem;
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2>h2 {
+        font-size: 1.7em;
     }
 
-    .card-1-mobile:hover>p {
-        opacity: 100;
-        transform: translateY(35vh);
+    .card-2:hover>h2 {
+        transform: translateY(1vh);
     }
 
-    /* --------------------- Card 2 --------------------- */
-    .card-2-mobile {
-        display: block;
-        background: url("./Project-2.webp");
-        background-position: center;
-        background-size: cover;
-        border: 1px solid gray;
-        border-radius: 10px;
-        transition: .2s ease;
-        overflow: hidden;
-        height: 700px;
-        margin: 0 0 1rem;
+    .card-2:hover>.Technologies {
+        transform: translateY(-22vh);
     }
 
-    .card-2-mobile:hover {
-        background: url("./bg.webp");
-        background-position: center;
-        background-size: cover;
+    .card-2>p {
+        font-size: 1em;
     }
 
-    .card-2-mobile>h2 {
-        text-shadow: 0px 0px 0px;
-        transition: .5s ease;
+    .card-2:hover>p {
+        transform: translateY(24vh);
     }
 
-    .card-2-mobile:hover>h2 {
-        text-shadow: 1px 1px 20px;
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(15vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3>h2 {
+        font-size: 1.7em;
+    }
+
+    .card-3:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(-26vh);
+    }
+
+    .card-3>p {
+        font-size: 1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(30vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
         transform: translateY(10vh);
-    }
-
-    .card-2-mobile>p {
-        opacity: 0;
-        text-align: center;
-        transform: translateY(75vh);
-        text-wrap: pretty;
-        transition: .5s ease;
-        margin: 0 .5rem;
-    }
-
-    .card-2-mobile:hover>p {
-        opacity: 100;
-        transform: translateY(35vh);
-    }
-
-    /* --------------------- Card 3 --------------------- */
-    .card-3-mobile {
-        display: block;
-        background: url("./Project-3.webp");
-        background-position: center;
-        background-size: cover;
-        border: 1px solid gray;
-        border-radius: 10px;
-        transition: .2s ease;
-        overflow: hidden;
-        height: 700px;
-    }
-
-    .card-3-mobile:hover {
-        background: url("./bg.webp");
-        background-position: center;
-        background-size: cover;
-    }
-
-    .card-3-mobile>h2 {
-        text-shadow: 0px 0px 0px;
-        transition: .5s ease;
-    }
-
-    .card-3-mobile:hover>h2 {
-        text-shadow: 1px 1px 20px;
-        transform: translateY(10vh);
-    }
-
-    .card-3-mobile>p {
-        opacity: 0;
-        text-align: center;
-        transform: translateY(75vh);
-        text-wrap: pretty;
-        transition: .5s ease;
-        margin: 0 .5rem;
-    }
-
-    .card-3-mobile:hover>p {
-        opacity: 100;
-        transform: translateY(35vh);
     }
 }
 
-@media (width >=1024px) and (width <=1439px) {
+@media (width >=320px) and (width <=374px) {
+
+    .Technologies {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: .5rem;
+    }
+
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-1>h2 {
+        font-size: 2em;
+    }
+
+    .card-1:hover>.Technologies {
+        transform: translateY(-22vh);
+    }
+
+    .card-1>p {
+        font-size: 1.1em;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(20vh);
+    }
+
+    .button-page-1 {
+        transform: translateY(20vh);
+    }
+
+    .card-1:hover>.button-page-1 {
+        transform: translateY(5vh);
+    }
+
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-2>h2 {
+        font-size: 2em;
+    }
+
+    .card-2:hover>.Technologies {
+        transform: translateY(-18vh);
+    }
+
+    .card-2>p {
+        font-size: 1.1em;
+    }
+
+    .card-2:hover>p {
+        transform: translateY(17vh);
+    }
+
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(10vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-3>h2 {
+        font-size: 2em;
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(-18vh);
+    }
+
+    .card-3>p {
+        font-size: 1.1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(22vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
+        transform: translateY(7vh);
+    }
+}
+
+@media (width >=375px) and (width <=424px) {
+
+    .Technologies {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: .5rem;
+    }
+
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-1>h2 {
+        font-size: 2em;
+    }
+
+    .card-1:hover>.Technologies {
+        transform: translateY(-15vh);
+    }
+
+    .card-1>p {
+        font-size: 1.1em;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(23vh);
+    }
+
+    .button-page-1 {
+        transform: translateY(20vh);
+    }
+
+    .card-1:hover>.button-page-1 {
+        transform: translateY(10vh);
+    }
+
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-2>h2 {
+        font-size: 2em;
+    }
+
+    .card-2:hover>.Technologies {
+        transform: translateY(-12vh);
+    }
+
+    .card-2>p {
+        font-size: 1.1em;
+    }
+
+    .card-2:hover>p {
+        transform: translateY(22vh);
+    }
+
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(15vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-3>h2 {
+        font-size: 2em;
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(-15vh);
+    }
+
+    .card-3>p {
+        font-size: 1.1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(23vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
+        transform: translateY(10vh);
+    }
+}
+
+@media (width >=425px) and (width <=767px) {
+    .Technologies {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: .5rem;
+    }
+
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-1>h2 {
+        font-size: 2em;
+    }
+
+    .card-1:hover>.Technologies {
+        transform: translateY(-12vh);
+    }
+
+    .card-1>p {
+        font-size: 1.1em;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(23vh);
+    }
+
+    .button-page-1 {
+        transform: translateY(20vh);
+    }
+
+    .card-1:hover>.button-page-1 {
+        transform: translateY(10vh);
+    }
+
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-2>h2 {
+        font-size: 2em;
+    }
+
+    .card-2:hover>.Technologies {
+        transform: translateY(-10vh);
+    }
+
+    .card-2>p {
+        font-size: 1.1em;
+    }
+
+    .card-2:hover>p {
+        transform: translateY(22vh);
+    }
+
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(15vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3:hover>h2 {
+        transform: translateY(1vh);
+    }
+
+    .card-3>h2 {
+        font-size: 2em;
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(-12vh);
+    }
+
+    .card-3>p {
+        font-size: 1.1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(23vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
+        transform: translateY(10vh);
+    }
+}
+
+@media (width >=768px) and (width <=1023px) {
+
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1:hover>h2 {
+        transform: translateY(5vh);
+    }
+
+    .card-1>h2 {
+        font-size: 2em;
+    }
+
+    .card-1:hover>.Technologies {
+        transform: translateY(2vh);
+    }
+
+    .card-1>p {
+        font-size: 1.1em;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(24vh);
+    }
+
+    .button-page-1 {
+        transform: translateY(20vh);
+    }
+
+    .card-1:hover>.button-page-1 {
+        transform: translateY(30vh);
+    }
+
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2:hover>h2 {
+        transform: translateY(5vh);
+    }
+
+    .card-2>h2 {
+        font-size: 2em;
+    }
+
+    .card-2:hover>.Technologies {
+        transform: translateY(2vh);
+    }
+
+    .card-2>p {
+        font-size: 1.1em;
+    }
+
+    .card-2:hover>p {
+        transform: translateY(24vh);
+    }
+
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(30vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3:hover>h2 {
+        transform: translateY(5vh);
+    }
+
+    .card-3>h2 {
+        font-size: 2em;
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(2vh);
+    }
+
+    .card-3>p {
+        font-size: 1.1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(24vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
+        transform: translateY(30vh);
+    }
+}
+
+/*--------------- Otras medidas ---------------*/
+@media (width >=850px) and (width <=1439px) {
     .technology-Astro {
         margin: 0 .5rem;
     }
@@ -698,35 +1012,180 @@ a {
         margin: 0 .5rem;
     }
 
-    .card-1:hover>p {
-        transform: translateY(28vh);
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1:hover>h2 {
+        transform: translateY(10vh);
+    }
+
+    .card-1>h2 {
+        font-size: 2em;
     }
 
     .card-1:hover>.Technologies {
-        transform: translateY(0vh);
+        transform: translateY(2vh);
     }
 
-    .card-2:hover>p {
-        transform: translateY(28vh);
+    .card-1>p {
+        font-size: 1.1em;
     }
 
-    .card-2:hover>.Technologies {
-        transform: translateY(0vh);
+    .card-1:hover>p {
+        transform: translateY(24vh);
     }
 
-    .card-3:hover>p {
-        transform: translateY(40vh);
+    .button-page-1 {
+        transform: translateY(20vh);
     }
-}
 
-@media (width >=1160px) and (width <=1439px) {
+    .card-1:hover>.button-page-1 {
+        transform: translateY(25vh);
+    }
+
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2:hover>h2 {
+        transform: translateY(10vh);
+    }
+
+    .card-2>h2 {
+        font-size: 2em;
+    }
+
     .card-2:hover>.Technologies {
         transform: translateY(2vh);
     }
+
+    .card-2>p {
+        font-size: 1.1em;
+    }
+
+    .card-2:hover>p {
+        transform: translateY(24vh);
+    }
+
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(25vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3:hover>h2 {
+        transform: translateY(10vh);
+    }
+
+    .card-3>h2 {
+        font-size: 2em;
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(2vh);
+    }
+
+    .card-3>p {
+        font-size: 1.1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(24vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
+        transform: translateY(25vh);
+    }
 }
 
-@media (width >=1218px) and (width <=1439px) {
+@media (min-width: 2560px) {
+
+    /*-------------- Tarjeta 1 --------------*/
+    .card-1:hover>h2 {
+        transform: translateY(5vh);
+    }
+
+    .card-1>h2 {
+        font-size: 2em;
+    }
+
     .card-1:hover>.Technologies {
         transform: translateY(3vh);
+    }
+
+    .card-1>p {
+        font-size: 1.1em;
+    }
+
+    .card-1:hover>p {
+        transform: translateY(12vh);
+    }
+
+    .button-page-1 {
+        transform: translateY(20vh);
+    }
+
+    .card-1:hover>.button-page-1 {
+        transform: translateY(13vh);
+    }
+
+    /*-------------- Tarjeta 2 --------------*/
+    .card-2:hover>h2 {
+        transform: translateY(5vh);
+    }
+
+    .card-2>h2 {
+        font-size: 2em;
+    }
+
+    .card-2:hover>.Technologies {
+        transform: translateY(3vh);
+    }
+
+    .card-2>p {
+        font-size: 1.1em;
+    }
+
+    .card-2:hover>p {
+        transform: translateY(12vh);
+    }
+
+    .button-page-2 {
+        transform: translateY(20vh);
+    }
+
+    .card-2:hover>.button-page-2 {
+        transform: translateY(13vh);
+    }
+
+    /*-------------- Tarjeta 3 --------------*/
+    .card-3:hover>h2 {
+        transform: translateY(5vh);
+    }
+
+    .card-3>h2 {
+        font-size: 2em;
+    }
+
+    .card-3:hover>.Technologies {
+        transform: translateY(3vh);
+    }
+
+    .card-3>p {
+        font-size: 1.1em;
+    }
+
+    .card-3:hover>p {
+        transform: translateY(12vh);
+    }
+
+    .button-page-3 {
+        transform: translateY(20vh);
+    }
+
+    .card-3:hover>.button-page-3 {
+        transform: translateY(13vh);
     }
 }
